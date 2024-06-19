@@ -23,7 +23,6 @@ import ContactLayout from "./layouts/ContactLayout";
 import ArticlesLayout from "./layouts/ArticlesLayout";
 
 function App() {
-  // MAIN APP
   const routes = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
